@@ -2,7 +2,7 @@ using CrowdControl.Common;
 using JetBrains.Annotations;
 using ConnectorType = CrowdControl.Common.ConnectorType;
 
-namespace CrowdControl.Games.Packs.Retro.HoyleBook1;
+namespace CrowdControl.Games.Packs.HoyleBook1;
 
 [UsedImplicitly]
 public class HoyleBook1 : RetroPCEffectPack
