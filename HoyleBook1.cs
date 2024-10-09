@@ -9,6 +9,8 @@ public class HoyleBook1 : RetroPCEffectPack
 {
     public HoyleBook1(UserRecord player, Func<CrowdControlBlock, bool> responseHandler, Action<object> statusUpdateHandler) : base(player, responseHandler, statusUpdateHandler) { }
     
+    public override Game Game { get; } = new("Hoyle's Official Book of Games Vol. 1", "HoyleBook1", "Retro", ConnectorType.RetroPCConnector);
+
     public override EffectList Effects
     {
         get
@@ -20,8 +22,6 @@ public class HoyleBook1 : RetroPCEffectPack
             return effects;
         }
     }
-
-    public override Game Game { get; } = new("Hoyle's Official Book of Games Vol. 1", "HoyleBook1", "Retro", ConnectorType.RetroPCConnector);
     
     protected override GameState GetGameState()
     {
