@@ -43,7 +43,7 @@ public class HoyleBook1 : RetroPCEffectPack
                         {
                             Span<byte> test = stackalloc byte[32];
                             Connector.Read(0, test);
-                            Log.Message(test.ToHexString());
+                            //Log.Message(test.ToHexString());
                             return true;
                         },
                         TimeSpan.FromSeconds(5),
