@@ -55,7 +55,7 @@ public class HoyleBook1 : RetroPCEffectPack
                     return;
                 }
             default:
-                Respond(request, EffectStatus.FailPermanent, StandardErrors.UnknownEffect, request);
+                Respond(request, EffectStatus.FailPermanent, StandardErrors.EffectUnknown, request);
                 return;
         }
     }
