@@ -1,5 +1,10 @@
 ﻿# Hoyle's Official Book of Games Vol. 1
 
+## Pack metadata
+
+- Platform: `Retro`
+- Connector type: `RetroConnector`
+
 ## What this pack provides
 This Crowd Control pack integrates **Hoyle's Official Book of Games Vol. 1** with Crowd Control through its Retro pack implementation. Its source defines the game-state checks and effect handling.
 
@@ -11,4 +16,3 @@ The pack source contains the platform-specific connection and game-state logic u
 
 ## Contents
 - `HoyleBook1.cs` - primary pack definition and ROM metadata.
-
