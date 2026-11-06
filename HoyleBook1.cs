@@ -10,17 +10,12 @@ public class HoyleBook1 : RetroPCEffectPack
     
     public override Game Game { get; } = new("Hoyle's Official Book of Games Vol. 1", "HoyleBook1", "Retro", ConnectorType.RetroPCConnector);
 
-    public override EffectList Effects
-    {
-        get
-        {
-            List<Effect> effects =
-            [
+    public override EffectList Effects { get; } =
+            new List<Effect>([
                 new("Test", "test"),
-            ];
-            return effects;
-        }
-    }
+            ]);
+
+
     
     protected override GameState GetGameState()
     {
